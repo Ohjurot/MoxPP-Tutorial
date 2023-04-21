@@ -37,7 +37,7 @@ function mox_discover_subfolders_win(folder)
     return io.popen("dir \"" .. folder .. "\" /b /ad"):lines()
 end
 function mox_discover_subfolders_linux(folder)
-    return io.popen("find \"./" .. folder .. "\" -maxdepth 1 -type d" ):lines()
+    return io.popen("find \"./" .. folder .. "\" -maxdepth 1 -type d -printf '%f\n'" ):lines()
 end
 
 
