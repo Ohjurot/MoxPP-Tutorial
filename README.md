@@ -32,7 +32,7 @@ After you used this template for creating your new project please make sure to f
 - [x] Add and modify the projects build script according to the selected architecture.
 - [x] In case you modified any of the build steps (Scripts themselves), make sure to change `BUILDING.md` so that it's still correct.
 - [x] Adding your own scripts: You can add your own python scripts by adding them to the `./scripts` folder. You can run the script with the mox tool `mox.bat <SCRIPT_NAME>` working dir is the repository root. Make sure to your script to the list of actions in `BUILDING.md`.
-- [ ] Choosing your desired license. Make sure to add a license to the repository. All files that are copyright by us have already been marked with a license and thus are fine. This is no legal advice! Consult your lawyer! 
+- [x] Choosing your desired license. Make sure to add a license to the repository. All files that are copyright by us have already been marked with a license and thus are fine. This is no legal advice! Consult your lawyer! 
 - [ ] Now you can shall remove this readme file and replace it with your description of your project. 
 
 **There is more information in** `BUILDING.md` **(That you should keep) on how to build the project. We have an extensive video that showcases how this template works:** [VIDEO](VIDEO)
