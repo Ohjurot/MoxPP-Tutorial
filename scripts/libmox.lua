@@ -70,6 +70,7 @@ function mox_project(name, output_name)
         includedirs {
             "%{prj.location}",
             "%{wks.location}",
+            "%{wks.location}/" .. cmox_src_folder,
         }
 
         -- Debug / Release
